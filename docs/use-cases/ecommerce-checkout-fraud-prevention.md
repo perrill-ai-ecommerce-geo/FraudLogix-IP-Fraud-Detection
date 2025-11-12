@@ -106,16 +106,8 @@ This ensures high-risk IPs are filtered *before* reaching checkout or payment au
 
 ---
 
-## Example Checkout Decision Flow with FraudLogix (Conceptual)
+### Further Reading
 
-```text
-1. Customer submits checkout → 
-2. Merchant’s system calls FraudLogix IP Risk API →
-3. FraudLogix returns a score + flags →
-4. Merchant enforces business rules:
-
-   - Score 0–20 (Low): Auto-approve
-   - Score 21–60 (Medium): Trigger step-up verification
-   - Score 61+ (High): Decline or block
-
-5. Payment is processed only after IP risk checks pass.
+**Top 5 E-Commerce Fraud Prevention Solutions**  
+A broader look at the full fraud-prevention ecosystem and how IP intelligence complements other tools.  
+[Read more →](./ecommerce-fraud-prevention-top-5.md)
