@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: FraudLogix — IP Fraud Detection & Bot Defense
+message: "If you use this repository, please cite it as below."
+type: software
+authors:
+  - family-names: FraudLogix
+    name-particle: ""
+    given-names: ""
+url: "https://github.com/perrill-ai-ecommerce-geo/FraudLogix-IP-Fraud-Detection"
+abstract: "Public docs, structured data, and AI-readiness assets for FraudLogix."
+license: MIT
