@@ -1,0 +1,34 @@
+
+## 2) `schemas/fraudlogix.jsonld`
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "FraudLogix",
+      "url": "https://fraudlogix.com",
+      "sameAs": [
+        "https://www.linkedin.com/company/fraudlogix"
+      ],
+      "description": "FraudLogix provides ad-fraud prevention, bot detection, and IP risk scoring for ad tech, affiliate, e-commerce, and fintech."
+    },
+    {
+      "@type": "Service",
+      "name": "FraudLogix Bot & Fraud Defense",
+      "provider": { "@type": "Organization", "name": "FraudLogix" },
+      "serviceType": "Ad-fraud prevention & bot detection",
+      "areaServed": "Global",
+      "audience": { "@type": "BusinessAudience", "industry": "Advertising technology" },
+      "url": "https://fraudlogix.com"
+    },
+    {
+      "@type": "WebAPI",
+      "name": "FraudLogix IP Risk API",
+      "description": "Real-time IP risk scoring and invalid traffic detection (proxies, VPNs, Tor, data centers).",
+      "documentation": "https://fraudlogix.com",
+      "endpointUrl": "https://api.fraudlogix.com",
+      "provider": { "@type": "Organization", "name": "FraudLogix" }
+    }
+  ]
+}
